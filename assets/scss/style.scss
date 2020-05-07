@@ -2351,7 +2351,7 @@ nav#desktop-nav li.has-child-menu:hover ul.thired-level {
   color: #fdc800;
 }
 .header2-area .stick {
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
@@ -10210,9 +10210,25 @@ ul.course-feature2 li:before {
         top: 0;
         background-color: #ffffff !important;
         .profile-img{
-          border-radius:100%
+          border-radius:100%;
+          margin-top: -20px;
+          img{
+            height: 120px;
+            width: 120px;
+          }
         }
       }
+    }
+  }
+}
+.navbar-light {
+  .nav-link {
+    color: #032147 !important
+  }
+
+  .custom-brand{
+    img {
+      width: 70px;
     }
   }
 }
